@@ -1,0 +1,50 @@
+version: "3.9"
+
+services:
+  api:
+    container_name: nodex_api
+    build: .
+    ports:
+      - "3000:3000"
+    env_file: .env
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    depends_on:
+      postgres:
+        condition: service_healthy
+      elasticsearch:
+        condition: service_started
+
+  postgres:
+    image: postgres:15
+    container_name: nodex_postgres
+    environment:
+      POSTGRES_USER: nodex
+      POSTGRES_PASSWORD: nodexpass
+      POSTGRES_DB: nodexdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./docker/postgres/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U nodex -d nodexdb" ]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  elasticsearch:
+    image: elasticsearch:8.12.0
+    container_name: nodex_elasticsearch
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+    ports:
+      - "9200:9200"
+    volumes:
+      - es_data:/usr/share/elasticsearch/data
+
+volumes:
+  postgres_data:
+  es_data:
